@@ -3,28 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">--->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/cards.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
     <title>My Skills</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
-<!--Parte del body-->
 
 <body>
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     <div class="container">
-        <nav class="nav-main">
-            <h3 class="my-name" for=""><a href="/index.html">My Skills</a></h3>
-            <ul class="nav-menu">
-                <li><a href="/languages.html">Languages</a></li>
-                <li><a href="/frameworks.html">Frameworks</a></li>
-                <li><a href="/libraries.html">Libraries</a></li>
+        <nav class="navbar">
+            <a class="logo" href="/index.html">My Skill</a>
+            <ul>
+                <li><a href="Pages/languages.html">Languages</a></li>
+                <li><a href="Pages/frameworks.html">Frameworks</a></li>
+                <li><a href="Pages/libraries.html">Libraries</a></li>
             </ul>
+            <button onclick="darkMode()">Mode</button>
         </nav>
 
         <!--Contact Information-->
-        <div class="card">
+        <div class="perfil">
             <div class="card-perfil">
-                <img class="img-p" src="img/perfil.jpg" alt="picture">
+                <div class="cp">
+                    <img class="img-perfil"
+                        src="https://scontent.fsyq4-2.fna.fbcdn.net/v/t1.0-9/106579327_1516445011873472_202285922156452296_o.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_ohc=LGj3yv2bbjsAX_6awJh&_nc_ht=scontent.fsyq4-2.fna&oh=46b294a4faea90ee280f3d10c656676f&oe=5F2F82A7"
+                        alt="picture">
+                </div>
                 <h3 class="perfil-name">Royner Oporta Meza</h3>
                 <section class="card-info">
                     <ul class="info">
@@ -38,4 +54,5 @@
         </div>
     </div>
 </body>
+
 </html>

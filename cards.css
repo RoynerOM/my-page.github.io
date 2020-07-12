@@ -1,0 +1,180 @@
+@media only screen and (max-width: 800px) {
+    .navbar{
+        grid-template-columns: 35%  50% 10%;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 13px;
+    }
+    .logo{
+        font-size: 18px;
+        width: 30%;
+    }
+    .navbar ul{
+        grid-template-columns: 24% 26% 22%;
+    }
+
+    /*Languajes*/
+    .c-cards{
+        grid-template-columns: 50% 50%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    .navbar{
+        grid-template-columns: 20%  50% 10%;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 13px;
+    }
+    .logo{
+        font-size: 18px;
+        width: 60%;
+    }
+    .navbar ul{
+        grid-template-columns: 30% 33% 30%;
+    }
+
+    /*Languajes*/
+    .c-cards{
+        justify-content: center;
+        grid-template-columns: 80%;
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .navbar{
+        grid-template-columns: 30%  50% 12%;
+    }
+    .logo{
+        font-size: 18px;
+        width: 70%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 510px) {
+  
+    .navbar{
+        grid-template-columns: 30%  57% 13%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+  
+    .navbar{
+        grid-template-columns: 20%  63% 15%;
+    }
+    .logo{
+        font-size: 18px;
+        width: 90%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 400px) {
+  
+    .navbar{
+        grid-template-columns: 20%  63% 17%;
+    }
+    .logo{
+        font-size: 15px;
+        width: 100%;
+    }
+    a{
+        font-size:10px ;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+   section{
+       grid-template-columns: 30% 70%;
+   }
+    section div img{
+        width: 80%;
+        height: auto;
+    }
+    .skill-c h3{
+        margin-left: 10%;
+    }
+    .skill-java h3{
+        margin-left: 10%;
+    }
+    .skill-js h3{
+        margin-left: -20px;
+    }
+    .skill-css h3{
+        margin-left: 10%;
+    }
+    .skill-html h3{
+        margin-left: 10%;
+    }
+    .skill-py h3{
+        margin-left: 10%;
+    }
+    .skill-sb h3{
+        margin-left: 10%;
+    }
+    .skill-rn h3{
+        margin-left: 10%;
+    }
+    
+    .skill-c h2{
+        margin-right: 10%;
+    }
+    
+    .skill-java h2{
+        margin-right: 10%;
+    }
+    .skill-js h2{
+        margin-left: -20px;
+    }
+   
+    .skill-css h2{
+        margin-right: 10%;
+    }
+    .skill-html h2{
+        margin-right: 10%;
+    }
+    .skill-py h2{
+        margin-right: 10%;
+    }
+    .skill-sb h2{
+        margin-right: 10%;
+    }
+    .skill-rn h2{
+        margin-right: 10%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 330px) {
+  
+    .navbar{
+        grid-template-columns: 19%  63% 18%;
+    }
+    .logo{
+        font-size: 15px;
+        width: 100%;
+    }
+    a{
+        font-size:10px ;
+    }
+  }
+  @media only screen and (max-width: 310px) {
+  
+    .navbar{
+        grid-template-columns: 18%  60% 19%;
+    }
+    .navbar ul{
+        grid-template-columns: 33% 36% 30%;
+    }
+    .logo{
+        font-size: 14px;
+        width: 100%;
+    }
+    a{
+        font-size:10px ;
+    }
+  }
