@@ -1,0 +1,2 @@
+usar un json para la informacion de las cards
+aplicar correcciones en css y  html
